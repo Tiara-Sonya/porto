@@ -9,7 +9,25 @@
     <link rel="icon" href="dist/image/logo.png">
 </head>
 <body>
-<div class="w-full h-screen mt-6">
+    
+    <!-- Header Start -->
+    <header class="bg-light fixed top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4">
+                        <a href="index.php" class="font-extrabold text-xl text-secondary block py-5">tiarasonya</a>
+                    </div>
+                    <div class="flex items-center gap-4 px-4">
+                        <a class="px-4" href="index.php">Home</a>
+                        <a class="px-4" href="#">Skills</a>
+                        <a class="px-4" href="#">Project</a>
+                        <a class="px-4" href="artikel.php">Artikel</a>
+                        <a class="px-4" href="kontak.php">Kontak Saya</a>
+                    </div>
+                </div>
+            </div>
+    </header>
+<div class="w-full h-screen mt-12">
             <div class="grid sm:grid-cols-2 items-start gap-14 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md font-[sans-serif]">
                 <div>
                     <h1 class="text-black text-3xl font-extrabold">Let's Talk</h1>
